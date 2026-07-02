@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glyphify - Ultimate Glyph Control</title>
+  <meta name="description" content="Glyphify gives you full control over your Nothing Phone's Glyph interface: notifications, progress, battery, toys and ringtones.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute('data-theme', systemDark ? 'dark' : 'light');
+  </script>
+</head>
+
+<body>
+<header>
+  <div class="navbar">
+    <a href="#top" class="logo">
+      <img src="assets/images/app_icon.png" alt="Glyphify icon" class="app-icon">
+      Glyphify
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#features">features</a></li>
+        <li><a href="#press">featured in</a></li>
+        <li><a href="#faq">faq</a></li>
+        <li><a href="#privacy">privacy</a></li>
+        <li><a href="#contact">contacts</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <a href="https://play.google.com/store/apps/details?id=com.frank.glyphify" class="nav-play" aria-label="Get Glyphify on Google Play">
+        <p>Download now</p>
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light theme">
+        <i data-lucide="moon" class="icon-moon"></i>
+        <i data-lucide="sun"  class="icon-sun"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+
+      <div>
+        <h1>Full control over your <span class="accent">Glyph</span> interface.</h1>
+        <p class="lead">Notifications, battery, progress, toys and ringtones. Every part of your Glyph interface, configured exactly the way you want it.</p>
+      </div>
+
+      <div class="glyph-stage">
+        <video muted autoplay loop name="media">
+          <source src="assets/videos/extential_showcasing.mp4" type="video/mp4">
+        </video>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat">
+        <span class="num">25,000+</span>
+        <span class="label">Nothing Phone users worldwide</span>
+      </div>
+      <div class="stat">
+        <span class="num">2+ yrs</span>
+        <span class="label">of regular updates</span>
+      </div>
+      <div class="stat">
+        <span class="num">4.6 ★</span>
+        <span class="label">Nothing community rating</span>
+      </div>
+      <div class="stat">
+        <span class="num">You own it</span>
+        <span class="label">no subscriptions or ads</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">features</div>
+        <h2>Everything your Glyphs can do.</h2>
+        <p>From advanced Essential notifications to Glyph toys and ringtone tools.<br>Here is what Glyphify puts in your hands.</p>
+      </div>
+
+      <div class="group-title">core features</div>
+      <div class="feature-list">
+        <div class="feature">
+          <div class="icon"><i data-lucide="bell"></i></div>
+          <div>
+            <h3>Advanced Essential Notifications</h3>
+            <p>With Extential you can assign any Glyph zone to specific contacts, apps or chats, and pick from multiple animation styles. Create time and day-based profiles, with full control over every aspect of your Essential notifications. Phone (2a) and (3a) users get Glyph Fragmentation, which simulates extra Glyph zones.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="timer"></i></div>
+          <div>
+            <h3>Glyph Progress</h3>
+            <p>Track app progress through your Glyphs. Watch downloads, uploads or song playback animate across the Glyph interface in real time.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="zap"></i></div>
+          <div>
+            <h3>Charging Meter</h3>
+            <p>An advanced Glyph battery indicator that keeps your battery level visible at all times. While charging and even when your device is unplugged. Also restores the missing charging percentage meter on Phone (2a) and (3a).</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="battery-charging"></i></div>
+          <div>
+            <h3>Battery Alarms</h3>
+            <p>Get notified with custom sounds and Glyph animations when charging completes or battery runs low. An optional popup on the main display alerts you when battery is low.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group-title">glyph toys</div>
+      <div class="feature-list">
+        <div class="feature">
+          <div class="icon"><i data-lucide="target"></i></div>
+          <div>
+            <h3>Ball Maze Toy</h3>
+            <p>Guide a marble through a circular maze to the center. An addictive mini-game, right on your Glyphs.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="phone"></i></div>
+          <div>
+            <h3>Glyph Dial</h3>
+            <p>Call your favourite contacts directly from the Glyph Matrix. No unlock needed.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="paw-print"></i></div>
+          <div>
+            <h3>Glyph Pet</h3>
+            <p>Nurture a playful pixel companion that lives within the Glyph Matrix, evolving through care and daily interactions. Multiple pets are available, each with its own rarity and animations.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="globe"></i></div>
+          <div>
+            <h3>Glyph Minimap</h3>
+            <p>The Glyph Matrix, turned into your personal real-world minimap. Assign icons to saved locations and navigate to them directly from the Glyph Matrix.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group-title">ringtone customization (legacy glyphs only)</div>
+      <div class="feature-list">
+        <div class="feature">
+          <div class="icon"><i data-lucide="music"></i></div>
+          <div>
+            <h3>Automatic Composer</h3>
+            <p>Convert any track (mp3, wav and more) into a Glyph-synced ringtone, with precision beyond the stock algorithm. Choose from multiple conversion versions to find your favorite.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="headphones"></i></div>
+          <div>
+            <h3>Glyphify Studio</h3>
+            <p>A pocket DAW for Glyph ringtones. Visualize waveforms, auto-generate keyframes, tweak animations and remix saved projects.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group-title">additional features</div>
+      <div class="feature-list">
+        <div class="feature">
+          <div class="icon"><i data-lucide="sparkles"></i></div>
+          <div>
+            <h3>On Charge Animation (Phone (3) exclusive)</h3>
+            <p>Pick from multiple animations to play whenever your Nothing Phone is put on charge.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="icon"><i data-lucide="users"></i></div>
+          <div>
+            <h3>Glyph Near</h3>
+            <p>Animate your Glyph whenever another Glyphify-equipped Nothing phone is in range.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="group-title">compatibility</div>
+      <p class="compat-note">Glyphify has been tested and is fully compatible with Nothing OS on:</p>
+      <div class="chips">
+        <span class="chip">Phone (1)</span>
+        <span class="chip">Phone (2)</span>
+        <span class="chip">Phone (2a)</span>
+        <span class="chip">Phone (2a) Plus</span>
+        <span class="chip">Phone (3a)</span>
+        <span class="chip">Phone (3a) Pro</span>
+        <span class="chip">Phone (3)</span>
+        <span class="chip">Phone (4a)</span>
+        <span class="chip">Phone (4a) Pro</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section id="press">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">they talk about us</div>
+        <h2>Coverage from the Nothing community.</h2>
+        <p>A few places that have written and talked about Glyphify.</p>
+      </div>
+      <div class="press-grid">
+        <a class="press-card" href="https://www.androidauthority.com/nothing-phone-glyphify-3596711/" target="_blank" rel="noopener">
+          <span class="press-kind">Article</span>
+          <span class="press-outlet">Android Authority</span>
+          <blockquote class="press-quote">"The Glyph Dial finally feels like a tool for the Glyph Matrix rather than a toy."</blockquote>
+          <span class="press-link">Read the article <span class="arrow">→</span></span>
+        </a>
+        <a class="press-card" href="https://youtu.be/EGyKWjoTCdo&t=614" target="_blank" rel="noopener">
+          <span class="press-kind">Video</span>
+          <span class="press-outlet">HowToMen</span>
+          <blockquote class="press-quote">"It feels like the stuff that Nothing should have built into the OS from day one."</blockquote>
+          <span class="press-link">Watch the video <span class="arrow">→</span></span>
+        </a>
+        <a class="press-card" href="https://www.tuttoandroid.net/news/2024/10/31/nothing-glyphify-app-glyph-1065763/" target="_blank" rel="noopener">
+          <span class="press-kind">Article</span>
+          <span class="press-outlet">TuttoAndroid</span>
+          <blockquote class="press-quote">"'Cool stuff' — Carl Pei, CEO of Nothing"</blockquote>
+          <span class="press-link">Read the article <span class="arrow">→</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">faq</div>
+        <h2>Questions, answered.</h2>
+        <p>Common questions about permissions, Extential, the charging meter and battery alarms.</p>
+      </div>
+
+      <div class="faq-cat">
+        <div class="group-title">general</div>
+        <div class="faq-item">
+          <button class="faq-q">Why does Glyphify need permission to post notifications?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Post notification permission is crucial for Glyphify to work properly. Without it, the app cannot access the Glyph interface in the background, which defeats the whole purpose of Glyphify. If the notification bothers you, you can hide it through Android's settings. But you still need to grant the permission to use Glyphify.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I report a bug?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Use the dedicated <a href="mailto:glyphify.help@gmail.com">email</a>.</div></div>
+        </div>
+      </div>
+
+      <div class="faq-cat">
+        <div class="group-title">extential</div>
+        <div class="faq-item">
+          <button class="faq-q">Can I use Essential and Extential together?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">No, Extential is a replacement for Essential. If you want to use Extential, you need to deactivate Essential.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Only a few group chats are displayed. How do I display more?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Due to Android's restrictions, Glyphify cannot access conversations on your phone. As a workaround, each time you receive a message from a group chat, an entry with that group's information is created in the appropriate section of the app. So, to make a group chat appear, you first need to receive a message from it.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I activate Glyph Progress?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Glyph Progress is part of Extential. Enter Extential, tap an addressable Glyph zone (this varies by device), tap "Add app" and select the app of your choice, then toggle "Progress notifications". For Glyph Progress to work, the app must display a progress bar in its notification. If no progress bar is present, the feature will not function.</div></div>
+        </div>
+      </div>
+
+      <div class="faq-cat">
+        <div class="group-title">charging meter</div>
+        <div class="faq-item">
+          <button class="faq-q">I've turned on the charging meter. How do I show it?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Position your device face down on a flat surface, then wiggle it side to side. If you don't have "always on" mode and you're configuring this for the first time, connect your phone to power after turning on the charging meter.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">I'm a Phone (1) / Phone (2) user. Can I use Nothing's charging meter and Glyphify's together?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">No, Glyphify's charging meter replaces the default one. To use Glyphify's charging meter, you need to deactivate Nothing's charging meter.</div></div>
+        </div>
+      </div>
+
+      <div class="faq-cat">
+        <div class="group-title">battery alarms</div>
+        <div class="faq-item">
+          <button class="faq-q">How can I set a custom alarm animation or sound?<span class="plus">+</span></button>
+          <div class="faq-a"><div class="faq-a-inner">Head into Settings, Battery alarms, tap the default sound button, choose your file. If the file contains only audio data, the default Glyph animation plays. If it's a .ogg file containing a composition, the custom Glyph animation and sound play instead. Compositions can be created with the Automatic Composer, Glyphify Studio, or any other composer app, such as Nothing's composer app or community-made ones. The alarm plays for a maximum of 5 seconds. If the composition is longer, it will be truncated.</div></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section id="privacy">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">privacy policy</div>
+        <h2>What Glyphify does with your data.</h2>
+        <p>TLDR: nothing leaves your device, everything is done locally.</p>
+      </div>
+
+      <!-- Collapsible privacy policy -->
+      <div class="policy-wrap">
+        <button class="policy-toggle" id="policyToggle" aria-expanded="false">
+          <span>Read full privacy policy</span>
+          <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="policy-body" id="policyBody">
+          <div class="policy">
+            <p>This privacy policy applies to the Glyphify app ("Application") for mobile devices, created by Fr4nKB ("Service Provider") as a commercial service. This service is intended for use "as is."</p>
+
+            <h3>What information does the Application obtain, and how is it used?</h3>
+            <p>The Application does not obtain any information when installed or used, except for crash logs, which are shared only with the user's consent. Registration is not required to use the Application.</p>
+
+            <h3>Use of specific permissions</h3>
+            <ul>
+              <li><strong>READ_CONTACTS</strong>: used only to let the user select contacts for features such as personalized persistent Glyph notifications (Extential) or quick call functionality (Glyph Dial toy). The Application does not upload or share contact data; it is accessed locally on the device, only for the stated purpose.</li>
+              <li><strong>CALL_PHONE</strong>: allows the Application to initiate a phone call directly when the user explicitly requests it (for example, via the Glyph Dial toy). The Application does not make calls without user action.</li>
+              <li><strong>SYSTEM_ALERT_WINDOW</strong>: required to display certain overlays (for example, the Glyph Dial toy). Used solely to provide the intended functionality, not for advertising or tracking.</li>
+              <li><strong>QUERY_ALL_PACKAGES</strong>: used to identify installed applications for the Extential feature. Used strictly to provide functionality within the Application, not to collect or share information about installed apps.</li>
+              <li><strong>ACCESS_BACKGROUND_LOCATION</strong>: used to enable location-based features that require periodic location access even when the Application is not in the foreground (for example, Glyph Minimap). Location data is processed only on the device and is never uploaded, stored, or shared. This permission is used strictly to provide the intended functionality, never for advertising or tracking.</li>
+            </ul>
+
+            <h3>Does the Application collect precise real-time location information?</h3>
+            <p>The Application may access precise real-time location information only when you use the optional Glyph Minimap feature. This feature is entirely user-controlled and can be used or ignored at any time. Location data is processed solely on your device to provide the feature's functionality and is never uploaded, stored, or shared.</p>
+
+            <h3>Do third parties see or have access to information obtained by the Application?</h3>
+            <p>No data is shared with third parties.</p>
+
+            <h3>What are my opt-out rights?</h3>
+            <p>You can stop all collection of information by the Application by uninstalling it, using the standard uninstall process available through your mobile device or app marketplace.</p>
+
+            <h3>Children</h3>
+            <p>The Application is not used to knowingly solicit data from or market to children under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children, and encourages children never to submit any such information through the Application. Parents and legal guardians are encouraged to monitor their children's use of the Application and to instruct them never to provide personally identifiable information without permission. If you believe a child has provided personally identifiable information to the Service Provider through the Application, contact <a href="mailto:glyphify.help@gmail.com">glyphify.help@gmail.com</a> so the necessary action can be taken. You must be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries, a parent or guardian may consent on your behalf).</p>
+
+            <h3>Security</h3>
+            <p>The Service Provider is committed to safeguarding the confidentiality of your information. Since the only, optional data collected by the Application is crash logs, there is no need for this data to be encrypted, as it does not contain any user's sensitive data.</p>
+
+            <h3>Changes</h3>
+            <p>This privacy policy may be updated from time to time, for any reason. The Service Provider will notify you of changes by updating this page with the new policy. You are advised to consult this page regularly, as continued use of the Application after any change constitutes acceptance of that change.</p>
+
+            <h3>Your consent</h3>
+            <p>By using the Application, you consent to the processing of your information as set out in this privacy policy, now and as amended by the Service Provider.</p>
+
+            <div class="eff">Effective as of 2024-09-27</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section">
+    <div class="wrap">
+      <h2>Ready to unleash your Glyphs?</h2>
+      <p>Join 25,000+ Nothing Phone users. No subscription or ads, yours forever.</p>
+      <div class="cta-row">
+        <a href="https://play.google.com/store/apps/details?id=com.frank.glyphify" aria-label="Get Glyphify on Google Play">
+          <img src="assets/images/play_store_badge.svg" alt="Get it on Google Play" class="play-badge-img">
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER / CONTACT -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="contact-block">
+      <div>
+        <h2>Get in touch.</h2>
+        <p>For support, bug reports, or privacy inquiries.</p>
+        <div class="contact-links">
+          <a class="contact-btn" href="mailto:glyphify.help@gmail.com">
+            <i data-lucide="mail" class="icon"></i> Email
+          </a>
+          <a class="contact-btn" href="https://discord.gg/SFUTZptXPY" target="_blank" rel="noopener">
+            <img src="assets/icons/ic_discord.svg" class="icon" alt=""> Discord
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Made by the Nothing community, for the Nothing community. Not affiliated with Nothing Technology Limited.</span>
+      <span class="copyright">© 2026 Francesco Berti</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="js/main.js" defer></script>
+<script>lucide.createIcons();</script>
+</body>
+
+</html>
