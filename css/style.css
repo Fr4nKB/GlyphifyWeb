@@ -728,15 +728,19 @@ footer {
   padding-top: 24px;
   border-top: 1px solid var(--line);
 }
-.foot-bottom .logo { font-size: 14px; }
-.copyright {
-  font-family: 'Manrope', sans-serif;
-  font-size: 14px;
-  letter-spacing: .03em;
+.foot-bottom-right {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+.foot-meta {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  letter-spacing: .03em;
   text-decoration: none;
+  color: var(--muted);
+}
+.copyright {
   color: var(--text);
 }
 
