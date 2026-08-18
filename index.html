@@ -25,7 +25,7 @@
 <header>
   <div class="navbar">
     <a href="#top" class="logo">
-      <img src="/favicon.png" alt="Glyphify icon" class="app-icon">
+      <img src="/favicon_small.png" alt="Glyphify icon" class="app-icon">
       Glyphify
     </a>
     <nav>
@@ -34,6 +34,7 @@
         <li><a href="#press">featured in</a></li>
         <li><a href="#faq">faq</a></li>
         <li><a href="#privacy">privacy</a></li>
+        <li><a href="#licenses">licenses</a></li>
         <li><a href="#contact">contacts</a></li>
       </ul>
     </nav>
@@ -106,14 +107,14 @@
           <div class="icon"><i data-lucide="bell"></i></div>
           <div>
             <h3>Advanced Essential Notifications</h3>
-            <p>With Extential you can assign any Glyph zone to specific contacts, apps or chats, and pick from multiple animation styles. Create time and day-based profiles, with full control over every aspect of your Essential notifications. Phone (2a) and (3a) users get Glyph Fragmentation, which simulates extra Glyph zones.</p>
+            <p>With Extential you can assign any Glyph zone to specific contacts, apps, chats or keywords, and pick from multiple animation styles. Create time and day-based profiles, with full control over every aspect of your Essential notifications. Phone (2a) and (3a) users get Glyph Fragmentation, which simulates extra Glyph zones.</p>
           </div>
         </div>
         <div class="feature">
           <div class="icon"><i data-lucide="timer"></i></div>
           <div>
             <h3>Glyph Progress</h3>
-            <p>Track app progress through your Glyphs. Watch downloads, uploads or song playback animate across the Glyph interface in real time.</p>
+            <p>Track app progress through your Glyphs. Watch downloads, uploads, song playback or timer progress animate across the Glyph interface in real time.</p>
           </div>
         </div>
         <div class="feature">
@@ -164,19 +165,19 @@
         </div>
       </div>
 
-      <div class="group-title">ringtone customization (legacy glyphs only)</div>
+      <div class="group-title">ringtone customization</div>
       <div class="feature-list">
         <div class="feature">
           <div class="icon"><i data-lucide="music"></i></div>
           <div>
             <h3>Automatic Composer</h3>
-            <p>Convert any track (mp3, wav and more) into a Glyph-synced ringtone, with precision beyond the stock algorithm. Choose from multiple conversion versions to find your favorite.</p>
+            <p>Convert any track (mp3, wav and more) into a Glyph-synced ringtone, with precision beyond the stock algorithm. Choose from multiple conversion versions to find your favorite. Glyph Matrix compositions support embedding videos for a truly unique ringtone.</p>
           </div>
         </div>
         <div class="feature">
           <div class="icon"><i data-lucide="headphones"></i></div>
           <div>
-            <h3>Glyphify Studio</h3>
+            <h3>Glyphify Studio (legacy Glyphs only)</h3>
             <p>A pocket DAW for Glyph ringtones. Visualize waveforms, auto-generate keyframes, tweak animations and remix saved projects.</p>
           </div>
         </div>
@@ -212,6 +213,7 @@
         <span class="chip">Phone (3)</span>
         <span class="chip">Phone (4a)</span>
         <span class="chip">Phone (4a) Pro</span>
+        <span class="chip">Phone (4b)</span>
       </div>
     </div>
   </section>
@@ -366,6 +368,34 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- OSS LICENSES -->
+  <section id="licenses">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">open source</div>
+        <h2>Libraries Glyphify is built on.</h2>
+        <p>Glyphify stands on the shoulders of great open source work.</p>
+      </div>
+
+      <div class="policy-wrap">
+        <button class="policy-toggle" id="licensesToggle" aria-expanded="false">
+          <span>Read open source licenses</span>
+          <svg class="chevron" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="policy-body" id="licensesBody">
+          <div class="policy">
+            <p class="licenses-status" id="licensesStatus">Loading libraries…</p>
+            <div id="libraries"></div>
+            <div class="group-title" id="licenseDetailsTitle" style="display:none;">license texts</div>
+            <div id="licenseDetails"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
