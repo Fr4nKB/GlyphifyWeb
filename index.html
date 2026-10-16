@@ -335,7 +335,7 @@
 
             <h3>Use of specific permissions</h3>
             <ul>
-              <li><strong>READ_CONTACTS</strong>: used only to let the user select contacts for features such as personalized persistent Glyph notifications (Extential) or quick call functionality (Glyph Dial toy). The Application does not upload or share contact data; it is accessed locally on the device, only for the stated purpose.</li>
+              <li><strong>READ_CONTACTS</strong>: used only by the Extential feature, which lets you assign a custom light pattern to specific contacts. The Application needs this permission to match the sender of an incoming notification against the contacts you have assigned a pattern to. This matching happens entirely on your device. Contact data is not uploaded or shared.</li>
               <li><strong>CALL_PHONE</strong>: allows the Application to initiate a phone call directly when the user explicitly requests it (for example, via the Glyph Dial toy). The Application does not make calls without user action.</li>
               <li><strong>SYSTEM_ALERT_WINDOW</strong>: required to display certain overlays (for example, the Glyph Dial toy). Used solely to provide the intended functionality, not for advertising or tracking.</li>
               <li><strong>QUERY_ALL_PACKAGES</strong>: used to identify installed applications for the Extential feature. Used strictly to provide functionality within the Application, not to collect or share information about installed apps.</li>
