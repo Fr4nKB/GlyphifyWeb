@@ -85,6 +85,10 @@ h1, h2, h3, h4 {
   margin: 0;
   letter-spacing: 0.01em;
 }
+.note {
+  font-weight: 300;
+  opacity: 0.8;
+}
 a { color: inherit; }
 .mono {
   font-family: 'Manrope', sans-serif;
@@ -215,6 +219,11 @@ html[data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
 @media (prefers-color-scheme: dark) {
   html[data-theme="auto"] .theme-toggle .icon-moon { display: none; }
   html[data-theme="auto"] .theme-toggle .icon-sun  { display: block; }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 .nav-play {
